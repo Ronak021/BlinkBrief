@@ -19,6 +19,8 @@ BlinkBrief is a chrome extension developed in flask framework that summarizes Yo
 - Customizable Summary Length : Short, Medium, Long
 
 - Language Support : English, Hindi
+  
+- Download Options : Download summary in text or pdf file
 
     
 ## Technical Stack
@@ -28,6 +30,7 @@ BlinkBrief is a chrome extension developed in flask framework that summarizes Yo
 - yt_dlp: For downloading video audio.
 - AssemblyAI: For transcribing audio.
 - Google Generative AI: For generating summaries.
+- jsPDF: For generating PDF summaries.
 
 ## Installation
 
@@ -71,8 +74,9 @@ BlinkBrief is a chrome extension developed in flask framework that summarizes Yo
 3. **Configure Summary Options**:
   - Choose the desired summary length (short, medium, long) and language (English or Hindi).
 
-4. **View Summary**:
+4. **View and Download Summary**:
   - The extension will process the video and provide a concise summary directly within the extension’s interface.
+  - Download summary in desired format once generated. 
     
 ## Acknowledgements
 
