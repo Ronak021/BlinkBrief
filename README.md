@@ -1,2 +1,69 @@
-# BlinkBrief
-Youtube Video Summarizer Chrome Extension 
+
+# BlinkBrief: Youtube Video Summarizer Chrome Extension
+
+
+
+
+## Overview
+
+BlinkBrief is a chrome extension developed in flask framework that summarizes YouTube videos by extracting and transcribing their audio. It uses Google Generative AI to create concise, contextually accurate summaries. Users receive brief overviews in multiple languages based on configurable summary lengths.
+## Key Features
+
+
+- Transcript Extraction : Fetches manually created and auto-generated transcripts using youtube_transcript_api. Falls back to audio transcription using AssemblyAI if transcripts are not available.
+
+- Audio Processing : Downloads audio from YouTube in MP3 format using yt_dlp, Transcribes audio to text via AssemblyAI.
+
+- Summary Generation : Generates summaries from transcripts using Google Generative AI Model Gemini-Pro.
+
+- Customizable Summary Length : Short, Medium, Long
+
+- Language Support : English, Hindi
+
+    
+## Technical Stack
+
+- Flask: Web framework for building the chrome extension API.
+- youtube_transcript_api: For retrieving video transcripts.
+- yt_dlp: For downloading video audio.
+- AssemblyAI: For transcribing audio.
+- Google Generative AI: For generating summaries.
+
+## Installation
+
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/Ronak021/BlinkBrief.git
+    ```
+
+2. **Navigate to the Project Directory**
+    ```bash
+    cd BlinkBrief
+    ```
+
+3. **Create a Virtual Enovironmennt**
+    ```bash
+    pip install -r requirements.txt
+
+3. **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. **Set Environment Variables in .env File**:
+    - `GOOGLE_API_KEY`: Your Google API key for Generative AI.
+    - `ASSEMBLYAI_API_KEY`: Your AssemblyAI API key.
+
+5. **Run the Application**:
+    ```bash
+    python .\app.py
+    ```
+
+## Acknowledgements
+
+- **[Google Generative AI](https://cloud.google.com/ai)**
+- **[AssemblyAI](https://assemblyai.com/)**
+- **[yt_dlp](https://github.com/yt-dlp/yt-dlp)**
+- **[YouTube Transcript API](https://github.com/jdepoix/youtube-transcript-api)**
+
+
+
