@@ -58,6 +58,22 @@ BlinkBrief is a chrome extension developed in flask framework that summarizes Yo
     python .\app.py
     ```
 
+## Usage
+
+1. **Upload the Extension**:
+  - Open Chrome and go to `chrome://extensions/`.
+  - Enable "Developer mode" using the toggle in the top right corner.
+  - Click on "Load unpacked" and select the directory containing the BlinkBrief extension files.
+
+2. **Open the Chrome Extension**:
+  - Once the extension is loaded, click the BlinkBrief icon in your Chrome toolbar to summarize desired video.
+
+3. **Configure Summary Options**:
+  - Choose the desired summary length (short, medium, long) and language (English or Hindi).
+
+4. **View Summary**:
+  - The extension will process the video and provide a concise summary directly within the extension’s interface.
+  - 
 ## Acknowledgements
 
 - **[Google Generative AI](https://cloud.google.com/ai)**
