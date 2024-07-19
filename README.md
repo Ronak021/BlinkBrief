@@ -73,7 +73,7 @@ BlinkBrief is a chrome extension developed in flask framework that summarizes Yo
 
 4. **View Summary**:
   - The extension will process the video and provide a concise summary directly within the extension’s interface.
-  - 
+    
 ## Acknowledgements
 
 - **[Google Generative AI](https://cloud.google.com/ai)**
