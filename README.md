@@ -12,10 +12,10 @@ BlinkBrief is a chrome extension developed in flask framework that summarizes Yo
 
 Here is a demonstration video of BlinkBrief:
 
-<video width="640" height="360" controls>
-  <source src="https://www.dropbox.com/scl/fi/7xqta5uw62d11pl7g6bue/YT-summ_demo.mp4?raw=1" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/0699f336-cdae-4606-91bb-de0728d7efbf
+
+
 
 
 ## Key Features
