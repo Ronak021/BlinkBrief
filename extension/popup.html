@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BlinkBrief - YT Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/jspdf.umd.min.js"></script>
+
+</head>
+
+<body>
+    <h1>
+        <span class="app-name">BlinkBrief</span><br>
+        <span style="font-size: 15px;">Youtube Video Summarizer</span>
+    </h1>
+    <form id="summaryForm">
+        <div class="dropdown-container">
+            <div class="dropdown">
+                <label for="language">Language</label>
+                <select id="language" name="language">
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                    <!-- <option value="guj">Gujarati</option> -->
+                </select>
+            </div>
+            <div class="dropdown">
+                <label for="summaryLength">Length</label>
+                <select id="summaryLength" name="summaryLength">
+                    <option value="short">Short</option>
+                    <option value="medium">Medium</option>
+                    <option value="long">Long</option>
+                </select>
+            </div>
+           
+        </div>
+        <button type="submit" id="summarize">Summarize</button>
+    </form>
+
+    <div id="download-container" style="display: none;">
+        <button id="download">Download</button>
+        <select id="downloadFormat">
+            <option value="text">Text file (.txt)</option>
+            <option value="pdf">PDF file (.pdf)</option>
+        </select>
+    </div>
+    <p id="output"></p>
+    <hr>
+    <p>Made by Ronak Chauhan</p>
+    <script src="Popup.js"></script>
+
+
+
+</body>
+
+</html>

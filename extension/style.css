@@ -1,0 +1,146 @@
+/* Overall styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 15px;
+  background-color: #1c1f24;
+  color: #d3dfe2;
+  width : 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  
+}
+
+/* Title and heading  (text below the blinkbrief)*/
+h1 {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/*blinkbeif*/
+.app-name {
+  color: #eeeeee;
+  font-weight: bold;
+}
+
+
+.dropdown-container { 
+
+  display: flex;
+  gap: 10px;    /* Adjust the spacing between dropdowns */
+  margin-top: 30px;
+  margin-bottom: 10px; /* Space between the dropdowns and the button */
+
+ }  
+
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; 
+} 
+
+ label {
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 5px;
+  font-size: 14px;
+} 
+
+
+#summarize {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #ff0000;
+  font-weight: bold;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+#language, #language option {
+  color: black;
+}
+
+#summaryLength, #summaryLength option {
+  color: black;
+}
+
+
+
+#summarize:hover {
+  background-color: #b00101;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.4);
+}
+
+label {
+  font-weight: bold;
+  color: white text;
+  margin-bottom: 3px;
+}
+
+select,
+button {
+  padding: 8px 12px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  width: 100%;
+  color: #fff;
+}
+
+#output {
+  white-space: pre-wrap;
+  margin-top: 15px;
+  border-radius: 4px;
+  background-color: #24292e;
+  color: #d3dfe2;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 10px;
+  color: #9f9d9df2;
+  font-family: "Roboto", sans-serif;
+}
+#download {
+  padding: 8px 12px;
+  font-weight: bold;
+  border: 1px solid #444;
+  border-radius: 4px;
+  width: 100%;
+  color: #fff;
+  background-color: #0E78F9;
+  margin-top: 5px;
+}
+
+#download:hover {
+  background-color: #0E78F9;
+}
+
+
+
+
+#downloadFormat {
+  padding: 8px 12px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  width: 100%;
+  color: #fff;
+  background-color: #0E78F9; 
+  font-size: 14px; 
+  margin-top: 5px; 
+}
+
+#downloadFormat option {
+  color: #333;
+  background-color: #fff; /
+}
+
+
+
