@@ -56,7 +56,7 @@ https://github.com/user-attachments/assets/0699f336-cdae-4606-91bb-de0728d7efbf
 
 3. **Create a Virtual Enovironmennt**
     ```bash
-    pip install -r requirements.txt
+    .\env\Scripts\activate.ps1
 
 3. **Install Dependencies**
     ```bash
