@@ -6,7 +6,7 @@
 
 ## Overview
 
-BlinkBrief is a chrome extension developed in flask framework that summarizes YouTube videos by extracting and transcribing their audio. It uses Google Generative AI to create concise, contextually accurate summaries. Users receive brief overviews in multiple languages based on configurable summary lengths.
+BlinkBrief is a Chrome extension for summarizing YouTube videos by fetching transcripts with youtube_transcript_api, transcribing audio with AssemblyAI, and generating summaries using Google Generative AI Gemini-Pro-Model. It supports configurable summary lengths(Sort, Medium, Long) and languages(English and Hindi) , and outputs summaries as text or PDF. Built with Flask framework, it utilizes yt_dlp for audio extraction and integrates APIs for efficient processing and delivery.
 
 ## Video Demonstration
 
